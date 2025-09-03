@@ -1,66 +1,25 @@
-# --- OS junk ---
+
 .DS_Store
 Thumbs.db
-
-# --- Python ---
 __pycache__/
-*.py[cod]
-*$py.class
-pip-wheel-metadata/
-pip-log.txt
 .python-version
-
-# --- Envs & secrets ---
 .env
 .env.*
-!.env.example
 .venv/
 venv/
-env/
 
-# --- Build / dist ---
-build/
-dist/
-develop-eggs/
-.eggs/
-*.egg-info/
-.installed.cfg
-
-# --- Caches / testing / coverage ---
 .cache/
 .pytest_cache/
-.tox/
-.nox/
-.hypothesis/
-.coverage
-.coverage.*
-coverage.xml
 
-# --- Type checking / linters ---
-.mypy_cache/
-.pytype/
-.ruff_cache/
-.dmypy.json
-
-# --- Notebooks ---
 .ipynb_checkpoints/
-*.ipynb
 
-# --- Logs / temp ---
 logs/
-*.log
 tmp/
 temp/
 
-# --- Local data / vector DBs ---
 .chroma/
 chroma/
 data/
-
-# --- Editors / IDEs ---
 .vscode/
-.idea/
-*.iml
 
-# --- Misc package dirs ---
-__pypackages__/
+
